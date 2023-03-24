@@ -19,7 +19,7 @@ const Phones = () => {
     },[])
     return (
         <div>
-            <h3>Welcome To Phone Bazar</h3>
+            <h2>Welcome To Phone Bazar</h2>
             <h5>Total iphone list: {phones.length}</h5>
 
             {

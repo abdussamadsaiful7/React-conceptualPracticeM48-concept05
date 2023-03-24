@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Count from '../Count/Count';
 
 const Phone = (props) => {
     // const [phone, setPhone] =useState([]);
@@ -19,7 +20,8 @@ const Phone = (props) => {
                 <h3>Name: {phone_name}</h3>
                 <p>Brand: {brand}</p>
                 <p>Phone Model:  {slug}</p>
-                <button>-</button>
+                <Count></Count>
+                <button>Remove Card</button>
             </div>
             
         </div>
